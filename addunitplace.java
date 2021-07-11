@@ -19,4 +19,4 @@ public class addunitplace{
 			   b=b*(-1);
 		return b%10;
     }
-}ghg
+}
