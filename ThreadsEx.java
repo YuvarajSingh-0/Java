@@ -1,4 +1,4 @@
-public class ex8a{
+public class ThreadsEx{
     public static void main(String[] args) {
         Thread1 p1=new Thread1();
         Thread2 p2=new Thread2();
