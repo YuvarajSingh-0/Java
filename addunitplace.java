@@ -1,6 +1,6 @@
 //One of the most Satisfying Problem at the beginning stage :-) 
 import java.util.Scanner;
-public class addunitplace{
+public class AddUnitPlace {
 	public static void main(String[] args){
 		Scanner obj=new Scanner(System.in);
 		int num1=obj.nextInt();
