@@ -1,14 +1,14 @@
 import java.util.*;
-import mypack.nonstaticpack.ispalindromepossible;
+//import mypack.nonstaticpack.*;
 public class palindrome {
     public static void main(String[] args){
         Scanner readobj=new Scanner(System.in);
         int num=readobj.nextInt();
-        ispalindromepossible palindromecheck=new ispalindromepossible(); //Creating object.
-        System.out.println(palindromecheck.ispalindromepossible(num));
+        //ispalindromepossible palindromecheck=new ispalindromepossible(); //Creating object.
+        System.out.println(ispalindromepossible(num));
         readobj.close();
     }
-    /*public static boolean ispalindromepossible(int n){
+    public static boolean ispalindromepossible(int n){
         int[] digit=new int[10];
         int no_of_digits=0;
         Arrays.fill(digit,0);
@@ -33,5 +33,5 @@ public class palindrome {
         if(evencount==(no_of_digits/2))
             return true;
         return false;
-    }*/
+    }
 }

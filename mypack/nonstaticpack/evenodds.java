@@ -1,5 +1,5 @@
 package mypack.nonstaticpack;
-public class evenodds{
+public class EvenOdds {
     public int countevens(int[] a, int size){
         int ecount=0;
             for(int i=0;i<size;i++)
@@ -15,7 +15,7 @@ public class evenodds{
             return ocount;
     }
 }
-class isperfect {
+/*final class isperfect {
     public isperfect(int n){
         int sum=0;
         for(int i=1;i<n;i++)
@@ -28,4 +28,4 @@ class isperfect {
              System.out.println("Not a sunny nummber");
             //return false;
     }
-}
+}*/

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ex4a {
+public class AbstractExample {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String dec;
@@ -23,5 +23,6 @@ public class ex4a {
             else
                 break;
         }while(true);
+        sc.close();
     }
 }

@@ -1,8 +1,8 @@
 //Finding number of odd and even numbers. It's been a hell of a problem... uff!
 import java.util.Scanner;
 //import mypack.staticpack.*; (No need to import package for static packs.)
-public class countevenodds{
-    public static void main(String[] args){
+public class CountEvenOdds{
+        public static void main(String[] args){
         Scanner readobj=new Scanner(System.in);
         int[] num=new int[100];    
         System.out.println("No.of numbers to be inputed are: ");

@@ -1,6 +1,6 @@
-/*package mypack.nonstaticpack;
-public class isperfect {
-    public isperfect(int n){
+package mypack.nonstaticpack;
+public class IsPerfect {
+    public IsPerfect(int n){
         int sum=0;
         for(int i=1;i<n;i++)
             if(n%i==0)
@@ -12,4 +12,4 @@ public class isperfect {
              System.out.println("Not a sunny nummber");
             //return false;
     }
-}*/
+}

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class evenorodds{
+public class EvenOrOdds{
     public static void main(String[] args){
         Scanner readobj=new Scanner(System.in);
         int[] num=new int[100];

@@ -1,1 +1,3 @@
 *.class
+mypack/nonstaticpack/*.class
+mypack/staticpack/*.class

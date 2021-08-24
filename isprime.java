@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class isprime {
+public class IsPrime {
     public static void main(String[] args){
         Scanner readobj=new Scanner(System.in);
         System.out.println("Enter the number: ");

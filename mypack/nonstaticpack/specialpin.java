@@ -1,6 +1,6 @@
 package mypack.nonstaticpack;
-public class specialpin {
-	public specialpin(int input1,int input2,int input3){
+public class SpecialPin {
+	public SpecialPin(int input1,int input2,int input3){
 		int f[]=new int[3],s[]=new int[3],t[]=new int[3],r[]=new int[3],l[]=new int[1],pin;
 	    for(int i=0;i<3;i++){
 	    	f[i]=input1%10;
