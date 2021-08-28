@@ -4,7 +4,7 @@ public class IsPrime {
         Scanner readobj=new Scanner(System.in);
         System.out.println("Enter the number: ");
         int num=readobj.nextInt();
-        isprime primeobj=new isprime();
+        IsPrime primeobj=new IsPrime();
         primeobj.prime(num);
         readobj.close();
     }
